@@ -477,7 +477,7 @@ def _emp(lc=CY):  pr(c("║"+" "*(W-2)+"║",lc))
 
 def print_dashboard():
     rows=db_list()
-    title=c("  🎮  TZUAN QUEST TOOL  v4  ",WH,BD)
+    title=c("  🎮  TZUAN QUEST TOOL  ",WH,BD)
     _top(title,MG)
     _emp(MG)
 
@@ -602,13 +602,7 @@ def menu_accounts():
 def _add_account():
     clr()
     _top(c(" ➕ THÊM TÀI KHOẢN ",WH,BD),GR); _emp()
-    pr(_row(c("Token Discord — chuỗi dài ~70 ký tự",WH)))
-    pr(_row(c("Lấy token: Discord Web → F12 → Console → dán:",WH,DM)))
-    pr(_row(c("(webpackChunkdiscord_app.push([[''],{},[],e=>{",YL,DM)))
-    pr(_row(c(" m=[];for(let c in e.c)m.push(e.c[c])}]),m)",YL,DM)))
-    pr(_row(c(" .find(m=>m?.exports?.default?.getToken?.()",YL,DM)))
-    pr(_row(c(" ).exports.default.getToken()",YL,DM)))
-    _emp(); _bot(GR); pr()
+    _bot(GR); pr()
     token=ask("Nhập Token")
     if not token: pr(c("  ✘  Token trống!",RD,BD)); wait_enter(); return
     pr(c("  ●  Đang xác thực...",CY))
@@ -782,7 +776,7 @@ def menu_stop():
 def startup():
     clr()
     pr(c("╔══════════════════════════════════════════════════════╗",MG,BD))
-    pr(c("║",MG,BD)+c("    🎮  TZUAN QUEST TOOL  v4.0  — Đang khởi động...  ",WH,BD)+c("║",MG,BD))
+    pr(c("║",MG,BD)+c("    🎮  TZUAN QUEST TOOL  — Đang khởi động...  ",WH,BD)+c("║",MG,BD))
     pr(c("╚══════════════════════════════════════════════════════╝",MG,BD)); pr()
     db_init()
     for row in db_list():
