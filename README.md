@@ -1,7 +1,6 @@
 <div align="center">
 
-# 🎮 Tzuan Quest Tool
-### v4.0 — CLI Edition
+# 🎮 Tzuan Quests
 
 **Auto farm Discord Quest trực tiếp trên Terminal / Termux**
 Không cần bot · Không cần server · Chạy ngay
@@ -80,49 +79,22 @@ python3 tzuan_quest.py
 
 ---
 
-## 🔑 Cách Lấy Discord Token
-
-> ⚠️ **Bảo mật:** Token là mật khẩu tài khoản của bạn. Không chia sẻ cho ai.
-
-### Cách nhanh nhất — Console (F12)
-
-**Bước 1:** Mở trình duyệt → vào [discord.com/app](https://discord.com/app) và đăng nhập
-
-**Bước 2:** Nhấn `F12` → chọn tab **Console**
-
-**Bước 3:** Dán đoạn code sau và nhấn Enter:
-
-```javascript
-(webpackChunkdiscord_app.push(
-  [[''], {}, [], e => {
-    m = [];
-    for (let c in e.c) m.push(e.c[c]);
-  }]
-), m).find(
-  m => m?.exports?.default?.getToken?.()
-).exports.default.getToken()
-```
-
-**Bước 4:** Copy chuỗi token hiện ra *(không lấy dấu nháy `"` ở đầu/cuối)*
-
----
-
 ## 🕹️ Hướng Dẫn Sử Dụng
 
 ### Menu chính
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║    🎮  TZUAN QUEST TOOL  v4.0  ──  CLI Edition       ║
+║              🎮  Tzuan Quests                        ║
 ╠══════════════════════════════════════════════════════╣
 ║  #1  @username  ◆AF   ⚙ 73% (2/3)                   ║
-║  #2  @username2        ○ Rảnh                         ║
+║  #2  @username2        ○ Rảnh                        ║
 ╠══════════════════════════════════════════════════════╣
-║   1   👤  Quản lý tài khoản                           ║
-║   2   🎯  Farm Quest                                   ║
-║   3   🤖  AutoFarm                                     ║
-║   4   🛑  Dừng Farm                                    ║
-║   0   ❌  Thoát                                        ║
+║   1   👤  Quản lý tài khoản                          ║
+║   2   🎯  Farm Quest                                  ║
+║   3   🤖  AutoFarm                                    ║
+║   4   🛑  Dừng Farm                                   ║
+║   0   ❌  Thoát                                       ║
 ╚══════════════════════════════════════════════════════╝
 ```
 
@@ -231,6 +203,6 @@ pip install colorama
 
 <div align="center">
 
-**Tzuan Quest Tool v4.0 — CLI Edition**
+**Tzuan Quests**
 
 </div>
