@@ -2,9 +2,7 @@
 
 # 🎮 Tzuan Quests
 
-**Auto farm Discord Quest trực tiếp trên Terminal / Termux**
-Không cần bot · Không cần server · Chạy ngay
-
+**Auto farm Discord Quests**
 ---
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
